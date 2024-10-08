@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+        <web-root>https://www.jetbrains.com/help</web-root>
+        <download-page>https://www.jetbrains.com/writerside/download/</download-page>
+        <download-title>Get Writerside</download-title>
+        <showDownloadButton>false</showDownloadButton>
+        <primary-color>dracula</primary-color>
+        <header-logo>https://www.jetbrains.com/icon-512.png</header-logo>
+        <custom-favicons>https://www.jetbrains.com/icon-512.png</custom-favicons>
+    </variables>
+
+    <shortcuts>
+        <src>keymap.xml</src>
+        <layout name="Windows" display-name="Windows"/>
+        <layout name="macOS" display-name="macOS"/>
+        <layout name="GNOME" display-name="Linux"/>
+    </shortcuts>
+
+    <footer>
+        <social type="blog" href="https://yomni.github.io">Yomni's Tech Blog</social>
+
+        <link href="https://youtrack.jetbrains.com/issues/WRS">Issue tracker</link>
+        <link href="https://youtrack.jetbrains.com/form/9cf3cf67-8bc0-4cbc-824c-7ade4c563338">Submit support request</link>
+        <link href="mailto:writerside@jetbrains.com">Contact us</link>
+
+        <copyright>2000 JetBrains s.r.o.</copyright>
+    </footer>
+
+    <build-profile instance="wrs">
+        <sitemap priority="0.35" change-frequency="monthly"/>
+        <variables>
+            <noindex-content>false</noindex-content>
+            <product-web-url>https://www.jetbrains.com/help/writerside/</product-web-url>
+            <og-twitter>@onwriterside</og-twitter>
+            <og-image>https://resources.jetbrains.com/storage/products/writerside/img/meta/preview.png</og-image>
+            <images-prefix-override>https://my.company.com/images/</images-prefix-override>
+        </variables>
+    </build-profile>
+    <build-profile instance="testtest">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
+</buildprofiles>

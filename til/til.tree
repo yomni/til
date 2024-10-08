@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="til" name="Yomni's TIL" start-page="INTRODUCE.md">
+
+    <toc-element toc-title="Framework">
+        <toc-element toc-title="Spring">
+            <toc-element topic="1.Spring특징.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="Language">
+        <toc-element toc-title="JAVA">
+            <toc-element topic="1.Java 버젼별 특징.md"/>
+            <toc-element toc-title="Effective-Java">
+                <toc-element topic="아이템1.md"/>
+                <toc-element topic="아이템2.md"/>
+                <toc-element topic="아이템3.md"/>
+                <toc-element topic="아이템4.md"/>
+                <toc-element topic="아이템5.md"/>
+                <toc-element topic="아이템6.md"/>
+                <toc-element topic="아이템7.md"/>
+                <toc-element topic="아이템8.md"/>
+                <toc-element topic="아이템9.md"/>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="DB">
+        <toc-element toc-title="MySQL">
+            <toc-element topic="1.architecture.md"/>
+            <toc-element topic="2.쿼리실행구조.md"/>
+            <toc-element topic="3.스토리지엔진비교.md"/>
+            <toc-element topic="4.MVCC와 팬텀리드.md"/>
+            <toc-element topic="5.ACID.md"/>
+            <toc-element topic="6.Percona.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="Infrastructure">
+        <toc-element toc-title="Docker">
+            <toc-element topic="1.Docker Image Registry.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="INTRODUCE.md"/>
+</instance-profile>
