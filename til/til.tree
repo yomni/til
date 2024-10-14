@@ -9,7 +9,7 @@
         <toc-element toc-title="JAVA">
             <toc-element topic="1.Java 버젼별 특징.md"/>
             <toc-element toc-title="Effective-Java">
-                <toc-element topic="아이템1.md"/>
+                <toc-element topic="아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md"/>
                 <toc-element topic="아이템2.md"/>
                 <toc-element topic="아이템3.md"/>
                 <toc-element topic="아이템4.md"/>
