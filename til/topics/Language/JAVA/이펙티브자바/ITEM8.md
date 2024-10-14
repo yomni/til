@@ -1,6 +1,4 @@
-# [1장] 객체의 생성과 파괴
-
-## 아이템 8. finalizer 와 cleaner 사용을 피하라
+# 아이템 8. finalizer 와 cleaner 사용을 피하라
 
 ------
 

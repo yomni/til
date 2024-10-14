@@ -1,6 +1,4 @@
-# [1장] 객체의 생성과 파괴
-
-## 아이템 9. `try-finally` 보다는 `try-with-resources` 를 사용하라.
+# 아이템 9. `try-finally` 보다는 `try-with-resources` 를 사용하라.
 
 ------
 
@@ -32,7 +30,7 @@ public static void traditionalTryFinally() {
 ```
 - 이 방식은 자원을 제대로 해제하기 위해 많은 코드가 필요하고, 코드가 복잡해질 수 있다.
 
-### try-with-resources 구문 {id="try-with-resources_1"}
+### try-with-resources 구문
 
 자바 7 에서 도입된 `try-with-resources` 구문은 자원을 더 간결하고 안전하게 해제할 수 있는 방법을 제공한다.  
 AutoClosable 인터페이스를 구현한 객체를 사용할 때, `try-with-resources` 구문을 사용하면, 블록을 벗어날 때  

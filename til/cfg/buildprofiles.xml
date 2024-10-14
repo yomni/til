@@ -29,19 +29,19 @@
         <copyright>2000 JetBrains s.r.o.</copyright>
     </footer>
 
-    <build-profile instance="wrs">
-        <sitemap priority="0.35" change-frequency="monthly"/>
-        <variables>
-            <noindex-content>false</noindex-content>
-            <product-web-url>https://www.jetbrains.com/help/writerside/</product-web-url>
-            <og-twitter>@onwriterside</og-twitter>
-            <og-image>https://resources.jetbrains.com/storage/products/writerside/img/meta/preview.png</og-image>
-            <images-prefix-override>https://my.company.com/images/</images-prefix-override>
-        </variables>
-    </build-profile>
+<!--    <build-profile instance="wrs">-->
+<!--        <sitemap priority="0.35" change-frequency="monthly"/>-->
+<!--        <variables>-->
+<!--            <noindex-content>false</noindex-content>-->
+<!--            <product-web-url>https://www.jetbrains.com/help/writerside/</product-web-url>-->
+<!--            <og-twitter>@onwriterside</og-twitter>-->
+<!--            <og-image>https://resources.jetbrains.com/storage/products/writerside/img/meta/preview.png</og-image>-->
+<!--            <images-prefix-override>https://my.company.com/images/</images-prefix-override>-->
+<!--        </variables>-->
+<!--    </build-profile>-->
     <build-profile instance="til">
         <variables>
-            <noindex-content>true</noindex-content>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
 </buildprofiles>
