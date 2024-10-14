@@ -4,11 +4,7 @@
 
 <instance-profile id="til" name="Yomni's TIL" start-page="INTRODUCE.md">
 
-    <toc-element toc-title="Framework">
-        <toc-element toc-title="Spring">
-            <toc-element topic="1.Spring특징.md"/>
-        </toc-element>
-    </toc-element>
+    <toc-element topic="INTRODUCE.md"/>
     <toc-element toc-title="Language">
         <toc-element toc-title="JAVA">
             <toc-element topic="1.Java 버젼별 특징.md"/>
@@ -23,6 +19,11 @@
                 <toc-element topic="아이템8.md"/>
                 <toc-element topic="아이템9.md"/>
             </toc-element>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="Framework">
+        <toc-element toc-title="Spring">
+            <toc-element topic="1.Spring특징.md"/>
         </toc-element>
     </toc-element>
     <toc-element toc-title="DB">
@@ -40,5 +41,4 @@
             <toc-element topic="1.Docker Image Registry.md"/>
         </toc-element>
     </toc-element>
-    <toc-element topic="INTRODUCE.md"/>
 </instance-profile>
