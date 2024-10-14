@@ -39,7 +39,7 @@
             <images-prefix-override>https://my.company.com/images/</images-prefix-override>
         </variables>
     </build-profile>
-    <build-profile instance="testtest">
+    <build-profile instance="til">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>
