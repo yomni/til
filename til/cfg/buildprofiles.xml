@@ -7,7 +7,6 @@
         <!--        <download-page>https://www.jetbrains.com/writerside/download/</download-page>-->
         <!--        <download-title>Get Writerside</download-title>-->
         <showDownloadButton>true</showDownloadButton>
-        <sidebar-width>200</sidebar-width>
         <primary-color>dracula</primary-color>
         <header-logo>android-chrome-512x512.png</header-logo>
         <custom-favicons>android-chrome-512x512.png</custom-favicons>
