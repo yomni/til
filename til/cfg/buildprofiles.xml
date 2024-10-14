@@ -8,8 +8,9 @@
         <!--        <download-title>Get Writerside</download-title>-->
         <showDownloadButton>true</showDownloadButton>
         <primary-color>dracula</primary-color>
-        <header-logo>android-chrome-512x512.png</header-logo>
-        <custom-favicons>android-chrome-512x512.png</custom-favicons>
+        <header-logo>512.png</header-logo>
+        <custom-favicons>16.png, 32.png, 192.png, 512.png</custom-favicons>
+        <custom-css>custom.css</custom-css>
     </variables>
     <shortcuts>
         <layout name="Windows" display-name="Windows"/>
