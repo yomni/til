@@ -1,4 +1,4 @@
-# Yomni's TIL
+# Introduce
 
 ## 부제목 (선택)
 
@@ -9,3 +9,5 @@
 ## 적용 : 어떤 일을 했다
 
 ## Next Step : 어떤게 궁금하다! (optional)
+
+[//]: # (/TODO : 소개글 업데이트)
