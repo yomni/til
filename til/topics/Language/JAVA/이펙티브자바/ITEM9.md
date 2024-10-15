@@ -4,7 +4,7 @@
 
 자바 7에선 `try-with-resources` 라는 `try-finally` 보다 더 안전하고 간결한 방법을 제공하고 있다.
 
-### `try-finally` 구문
+## try-finally
 전통적으로 자원을 해제하는 방법은 `try-finally` 구문을 사용하는 것이다.  
 이 방법은 자원을 명시적으로 해제할 수 있지만, 코드가 장황해지고 오류가 발생하기 쉽다.
 
@@ -30,7 +30,7 @@ public static void traditionalTryFinally() {
 ```
 - 이 방식은 자원을 제대로 해제하기 위해 많은 코드가 필요하고, 코드가 복잡해질 수 있다.
 
-### `try-with-resources` 구문
+## try-with-resources
 
 자바 7 에서 도입된 `try-with-resources` 구문은 자원을 더 간결하고 안전하게 해제할 수 있는 방법을 제공한다.  
 AutoClosable 인터페이스를 구현한 객체를 사용할 때, `try-with-resources` 구문을 사용하면, 블록을 벗어날 때  
@@ -44,7 +44,7 @@ public static void tryWithResources() {
 }
 ```
 
-#### `try-with-resources` 구문의 장점
+### 장점
 
 1. 간결함
   - `try-with-resources` 구문은 코드가 간결하고 명확하다. 자원 해제 코드가 중복되지 않으며 가독성이 높아진다.
