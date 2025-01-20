@@ -1,4 +1,4 @@
-# 아이템 9. `try-finally` 보다는 `try-with-resources` 를 사용하라.
+# 아이템 9. try-finally 보다는 try-with-resources 를 사용하라.
 
 ------
 
