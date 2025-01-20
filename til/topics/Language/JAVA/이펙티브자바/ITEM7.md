@@ -18,7 +18,7 @@
 - 스택 클래스의 메모리 누수 방지
   - pop 메서드는 더 이상 필요 없는 참조를 null 로 설정하여 
 
-```java
+```Java
 public class Stack {
     private Object[] elements;
     private int size = 0;
@@ -52,7 +52,7 @@ public class Stack {
 - 캐시는 메모리 누수의 주된 원인이 될 수 있다. 캐시된 객체가 필요 없을 때 이를 제거하는 전략이 필요하다.
   - 적시 제거 (ex : `LinkedHashMap`의 `removeEldestEntry`) : 일정 수 이상의 항목이 추가되면 가장 오래된 항목을 자동으로 제거한다.
   - 약한 참조(Weak Reference) : 캐시된 항목이 더 이상 강하게 참조되지 않을 때 가비지 컬렉션이 수집할 수 있도록 약한 참조를 사용한다.
-```java
+```Java
 import java.util.WeakHashMap;
 
 public class Cache<K, V> {
@@ -72,7 +72,7 @@ public class Cache<K, V> {
 - 리스너나 콜백을 등록할 때 이를 명시적으로 해제하지 않으면 메모리 누수가 발생할 수 있다.
   - 약한 참조 사용으로 해결할 수 있다.
 
-```java
+```Java
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;

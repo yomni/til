@@ -26,7 +26,7 @@
 #### `try-with-resources` 사용
 - 자원을 사용하는 객체는 `AutoClosable` 인터페이스를 구현하여 `try-with-resources` 구문을 사용하여 자원을 명시적으로 해제할 수 있다.
 
-```java
+```Java
 public class Resource implements AutoCloseable {
     public Resource() {
         // 자원 획득
@@ -43,7 +43,7 @@ public class Resource implements AutoCloseable {
 }
 ```
 
-```java
+```Java
 public class Main {
     public static void main(String[] args) {
         try (Resource resource = new Resource()) {
@@ -57,7 +57,7 @@ public class Main {
 #### `명시적 종료 메서드` 사용
 - 자원을 명시적으로 해제하는 종료 메서드를 제공하여 사용자가 직접 호출하도록 한다.
 
-```java
+```Java
 public class Resource {
     private boolean closed = false;
 
@@ -90,7 +90,7 @@ public class Resource {
 }
 ```
 
-```java
+```Java
 public class Main {
     public static void main(String[] args) {
         Resource resource = new Resource();

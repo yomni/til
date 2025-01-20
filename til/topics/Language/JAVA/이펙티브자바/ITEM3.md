@@ -6,7 +6,7 @@
 ### 1. public static final 필드 방식  
 가장 간단한 싱글턴 구현 방법으로, 클래스의 인스턴스를 `public static final` 필드로 선언하는 것이다.  
 
-```java
+```Java
 public class Singleton implements Serializable {
     private static final long serialVersionUID = 1L;
     private static boolean instanceCreated = false;
@@ -41,7 +41,7 @@ public class Singleton implements Serializable {
 
 ### 2. 정적 팩터리 메서드 방식
 
-```java
+```Java
 public class Singleton implements Serializable {
     private static final long serialVersionUID = 1L;
     private static boolean instanceCreated = false;
@@ -84,7 +84,7 @@ public class Singleton implements Serializable {
 ### 3. enum 타입 방식
 가장 권장되는 방법이지만, 상속을 사용하는 클래스라면 이 방법은 사용할 수 없다.
 
-```java
+```Java
 public enum Singleton {
     INSTANCE;
 

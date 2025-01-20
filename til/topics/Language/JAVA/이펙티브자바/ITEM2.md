@@ -2,7 +2,7 @@
 
 ------
 
-```java
+```Java
 public class NutritionFacts {
     private final int servingSize;
     private final int servings;
@@ -66,7 +66,7 @@ public class NutritionFacts {
 
 ### 유연하다.
 
-```java
+```Java
 NyPizza pizza = new NyPizza.Builder(SMALL)
         .addTopping(SAUSAGE)
         .addTopping(ONION)

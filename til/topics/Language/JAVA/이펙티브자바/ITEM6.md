@@ -11,7 +11,7 @@
 ### 2. 기존 객체의 재사용
 필요할 때마다 객체를 새로 생성하지 말고, 이미 존재하는 객체를 재사용하는 것이 좋다.
 
-```java
+```Java
 // ex : 자주 사용되는 문자열을 상수로 선언하여 재사용
 public class Example {
     public static final String CONSTANT_STRING = "This is a constant string";
@@ -26,7 +26,7 @@ public class Example {
 ### 3. 불변 객체의 활용
 불변 객체(immutable object)는 재사용이 안전하므로, 가능하면 불변 객체를 사용하여 객체 생성 횟수를 줄일 수 있다.
 
-```java
+```Java
 // ex : Boolean 클래스의 valueOf 메서드 --> 새로운 객체를 생성하지 않고 기존 객체를 재사용한다.
 Boolean trueValue = Boolean.valueOf(true);
 Boolean falseValue = Boolean.valueOf(false);
@@ -35,7 +35,7 @@ Boolean falseValue = Boolean.valueOf(false);
 ### 4. 생성 비용이 큰 객체의 캐싱
 생성 비용이 큰 객체는 캐싱을 통해 재사용 할 수 있다.
 
-```java
+```Java
 import java.util.regex.Pattern;
 
 public class RegexExample {
@@ -51,7 +51,7 @@ public class RegexExample {
 원시 타입(Primitive type) 과 박싱된 기본 타입간의 자동변환(오토박싱)을 사용할 때 불필요한 객체가 생성 될 수 있다.  
 가능한 한 기본 타입을 사용하여 불필요한 객체 생성을 피한다.
 
-```java
+```Java
 // ex : 오토 박싱으로 불필요한 객체 생성
 public class AutoBoxingExample {
     public static void main(String[] args) {

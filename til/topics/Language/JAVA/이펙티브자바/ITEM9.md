@@ -8,7 +8,7 @@
 전통적으로 자원을 해제하는 방법은 `try-finally` 구문을 사용하는 것이다.  
 이 방법은 자원을 명시적으로 해제할 수 있지만, 코드가 장황해지고 오류가 발생하기 쉽다.
 
-```java
+```Java
 /**
  * try - finally 구문을 사용한 자원 해제
  */
@@ -36,7 +36,7 @@ public static void traditionalTryFinally() {
 AutoClosable 인터페이스를 구현한 객체를 사용할 때, `try-with-resources` 구문을 사용하면, 블록을 벗어날 때  
 자동으로 close 메서드가 호출된다.
 
-```java
+```Java
 public static void tryWithResources() {
     try (Resource resource = new Resource()) {
         resource.use();
@@ -54,7 +54,7 @@ public static void tryWithResources() {
 3. 다중 자원 관리
   - `try-with-resources` 구문은 여러 자원을 쉽게 관리할 수 있다. 여러 자원을 사용하는 경우, 
 
-```java
+```Java
 // 다중 자원 관리
 public static void multipleResources() {
     try (Resource resource1 = new Resource(); 
@@ -64,7 +64,7 @@ public static void multipleResources() {
     } // 블록을 벗어날 때 resource 1 / 2 모두 자동으로 해제됨
 }
 ```
-```java
+```Java
 // 실사용 예제
 
 import java.io.BufferedReader;

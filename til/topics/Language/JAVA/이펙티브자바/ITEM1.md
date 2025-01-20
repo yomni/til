@@ -2,7 +2,7 @@
 
 ------
 
-```java
+```Java
 // Boolean 의 valueOf
 public static Boolean valueOf(boolean b) {
     return b ? Boolean.TRUE : Boolean:FALSE;

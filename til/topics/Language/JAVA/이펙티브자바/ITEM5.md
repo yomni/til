@@ -5,7 +5,7 @@
 많은 클래스가 하나 이상의 자원에 의존한다. 대표적인 예로 정적 유틸리티 클래스로 구현한 모습을 드물지 않게 볼 수 있다.  
 클래스가 의존하는 자원을 직접 생성하지 말고, 외부에서 주입받도록 설계하라는 내용
 
-```java
+```Java
 // 문제가 있는 코드 1 - 멤버 변수로 선언 
 // Lexicon 과의 멤버변수 선언으로 강한 결합 형성 --> 변경이나 교체가 어렵다
 public class SpellChecker {
@@ -49,7 +49,7 @@ public class SpellChecker {
 ### 생성자 주입
 - 가장 일반적인 방법으로, 필요한 자원을 생성자의 매개변수로 전달받는다.
 
-```java
+```Java
 public class SpellChecker {
     private final Lexicon dictionary;
     
@@ -76,7 +76,7 @@ public class SpellChecker {
 ### 세터 주입
 - 자원을 설정할 수 있는 세터 메서드를 통해 주입받는다.
 
-```java
+```Java
 public class SpellChecker {
     private Lexicion dictionary;
     
@@ -101,7 +101,7 @@ public class SpellChecker {
 ### 인터페이스 주입
 - 덜 일반적인 방법으로, 인터페이스를 통해 의존 객체를 주입받는다.
 
-```java
+```Java
 public interface Lexicon {
     boolean contains(String word);
 }
