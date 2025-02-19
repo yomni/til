@@ -34,7 +34,7 @@
             <toc-element topic="1.architecture.md"/>
             <toc-element topic="2.쿼리실행구조.md"/>
             <toc-element topic="3.스토리지엔진비교.md"/>
-            <toc-element topic="4.MVCC_팬텀리드.md"/>
+            <toc-element topic="4.MVCC과 격리수준.md"/>
             <toc-element topic="5.ACID.md"/>
             <toc-element topic="6.Percona.md"/>
         </toc-element>
