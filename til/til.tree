@@ -8,6 +8,7 @@
     <toc-element toc-title="Language">
         <toc-element toc-title="JAVA">
             <toc-element topic="1.java_versions.md"/>
+            <toc-element topic="2.Enum.md"/>
             <toc-element toc-title="Effective-Java">
                 <toc-element topic="ITEM1.md"/>
                 <toc-element topic="ITEM2.md"/>
