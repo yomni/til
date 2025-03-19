@@ -72,6 +72,7 @@ NyPizza pizza = new NyPizza.Builder(SMALL)
         .addTopping(ONION)
         .build();
 ```
+
 - 가변인수 매개변수를 여러 개 사용할 수 있다.
 - 빌더 하나로 여러 객체를 순회하면서 만들 수 있다.
 - 빌더에 넘기는 매개변수에 따라 다른 객체를 만들 수도 있다.

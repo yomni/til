@@ -184,9 +184,11 @@ void 해시코드_검증() throws Exception {
     - hashCode와 equals가 올바르게 구현되었는지 단위 테스트를 작성하는 것이 좋습니다.
 
 ## 6. 결론
+
 equals 와 hashCode 는 기본적으로 재정의 해야 한다.
 
 ## 7. 느낀점
+
 관성적으로, 기계적으로 붙이던 equals 와 hashCode 의 동작 매커니즘을 이해하니,  
 논리적 동등성에 대해 한번 더 생각할 수 있는 기회가 된 것 같다.
 

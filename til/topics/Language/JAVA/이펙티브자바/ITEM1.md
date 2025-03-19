@@ -15,7 +15,7 @@ public static Boolean valueOf(boolean b) {
 
 - 생성자는 매개변수와 반환될 객체의 특성을 설명하지 못한다.
 
-### 호출될 때마다 인스턴스를 새로 생성하지는 않아도 된다 
+### 호출될 때마다 인스턴스를 새로 생성하지는 않아도 된다
 
 - 불필요한 객체 생성을 피할 수 있다.
 
@@ -33,8 +33,7 @@ public static Boolean valueOf(boolean b) {
 
 ### 정적 팩터리 메서드는 프로그래머가 찾기 어렵다
 
-<details>
-<summary>흔히 사용하는 적적 팩터리 명명 방식</summary>
+### 흔히 사용하는 적적 팩터리 명명 방식
 
 - `from` : 매개변수 하나 받아서 해당 타입의 인스턴스를 반환
 - `of` : 여러 매개변수를 받아 적합한 타입의 인스턴스를 반환
@@ -42,10 +41,8 @@ public static Boolean valueOf(boolean b) {
 - `instance` 혹은 `getInstance` : 매개변수로 명시한 인서턴스 반환(같은 인스턴스 보장은 X)
 - `create` 혹은 `newInstance` : instance 혹은 getInstance와 같지만, 매번 새로운 인스턴스를 생성해 반환함을 보장한다.
 - `getType` : getInstance와 같으나, 생성할 클래스가 아닌 다른 클래스에 팩터리 메서드를 정의할 때 쓴다.
-  - ex) `FileStore fs = Files.getFileStore(path)`
+    - ex) `FileStore fs = Files.getFileStore(path)`
 - `newType` : newInstance와 같으나, 생성할 클래스가 아닌 다른 클래스에 팩터리 메서드를 정의할 때 쓴다.
-  - ex) `BufferedReader br = Files.newBufferedReader(path)`
+    - ex) `BufferedReader br = Files.newBufferedReader(path)`
 - `type` : `getType` 과 `newType` 의 간결한 버전
-  - ex) `List<Complaint> litany = Collections.list(legacyLitany)`
-
-</details>
+    - ex) `List<Complaint> litany = Collections.list(legacyLitany)`
