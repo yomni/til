@@ -89,7 +89,7 @@ class MyClass implements Cloneable {
 ## 4. clone() 을 대체할 방법
 
 clone() 을 직접 사용하는 것은 **버그를 유발할 가능성이 많고, 유지보수가 어려운 방식**이므로, 더 나은 대안이 필요하다.  
-대체 방법으로 **복사 생성자(copy constructor)**와 **복사 팩터리(copy factory method)**를 사용할 수 있다.
+대체 방법으로 **복사 생성자(copy constructor)** 와 **복사 팩터리(copy factory method)** 를 사용할 수 있다.
 
 - 복사 매커니즘을 허용된 인터페이스로만 제한하는 이상적인 방법
 
@@ -109,7 +109,7 @@ private MyClass(MyClass original) {
 }
 
 public static MyClass newInstance(MyClass original) {
-    return new MyClass(original)
+    return new MyClass(original);
 }
 ```
 
